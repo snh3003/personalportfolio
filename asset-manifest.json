@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/personalportfolio/static/css/main.a35e6043.chunk.css",
+    "main.js": "/personalportfolio/static/js/main.aef4d8fb.chunk.js",
+    "main.js.map": "/personalportfolio/static/js/main.aef4d8fb.chunk.js.map",
+    "runtime-main.js": "/personalportfolio/static/js/runtime-main.f641620d.js",
+    "runtime-main.js.map": "/personalportfolio/static/js/runtime-main.f641620d.js.map",
+    "static/js/2.fd15acf3.chunk.js": "/personalportfolio/static/js/2.fd15acf3.chunk.js",
+    "static/js/2.fd15acf3.chunk.js.map": "/personalportfolio/static/js/2.fd15acf3.chunk.js.map",
+    "static/css/3.9998556b.chunk.css": "/personalportfolio/static/css/3.9998556b.chunk.css",
+    "static/js/3.05536770.chunk.js": "/personalportfolio/static/js/3.05536770.chunk.js",
+    "static/js/3.05536770.chunk.js.map": "/personalportfolio/static/js/3.05536770.chunk.js.map",
+    "static/css/4.01c87591.chunk.css": "/personalportfolio/static/css/4.01c87591.chunk.css",
+    "static/js/4.448c991e.chunk.js": "/personalportfolio/static/js/4.448c991e.chunk.js",
+    "static/js/4.448c991e.chunk.js.map": "/personalportfolio/static/js/4.448c991e.chunk.js.map",
+    "index.html": "/personalportfolio/index.html",
+    "precache-manifest.31c4edad8817f1a542463c5ac14341a6.js": "/personalportfolio/precache-manifest.31c4edad8817f1a542463c5ac14341a6.js",
+    "service-worker.js": "/personalportfolio/service-worker.js",
+    "static/css/3.9998556b.chunk.css.map": "/personalportfolio/static/css/3.9998556b.chunk.css.map",
+    "static/css/4.01c87591.chunk.css.map": "/personalportfolio/static/css/4.01c87591.chunk.css.map",
+    "static/css/main.a35e6043.chunk.css.map": "/personalportfolio/static/css/main.a35e6043.chunk.css.map",
+    "static/js/2.fd15acf3.chunk.js.LICENSE.txt": "/personalportfolio/static/js/2.fd15acf3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/personalportfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/contactMail.webp": "/personalportfolio/static/media/contactMail.68e84138.webp",
+    "static/media/developerActivity.svg": "/personalportfolio/static/media/developerActivity.59389695.svg",
+    "static/media/logo.svg": "/personalportfolio/static/media/logo.25bf045c.svg",
+    "static/media/manOnTable.svg": "/personalportfolio/static/media/manOnTable.52be3144.svg",
+    "static/media/minerva.png": "/personalportfolio/static/media/minerva.5b108e56.png",
+    "static/media/quantumhack.jpg": "/personalportfolio/static/media/quantumhack.2636b59f.jpg",
+    "static/media/skill.svg": "/personalportfolio/static/media/skill.34409398.svg",
+    "static/media/socialfeathers.png": "/personalportfolio/static/media/socialfeathers.12f94291.png",
+    "static/media/TalkCard.css": "/personalportfolio/static/media/talksCardBack.39eff4a9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f641620d.js",
+    "static/js/2.fd15acf3.chunk.js",
+    "static/css/main.a35e6043.chunk.css",
+    "static/js/main.aef4d8fb.chunk.js"
+  ]
+}
