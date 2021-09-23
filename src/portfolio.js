@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "snh3003",
   title: "Hi all, I'm Shahab Hashmi",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Java, also a Data Science and Competitive Coder ."),
-  resumeLink: "https://drive.google.com/file/d/18ZPGAI5XUGD8LVk6UIBwqYgfuvItT97D/view?usp=sharing"
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Reactjs / Nodejs / React Native / Swift, also a Cloud Enthusiast."),
+  resumeLink: "https://drive.google.com/file/d/1Ksi7-Sf9wrtvnDbbsuXLRV4Ove74AG34/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -31,17 +31,37 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO ENJOYS BUILDING COOL REVENUE GENERATING PROJECTS",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ An avid Competitive Coder and Data Science Enthusiast"),
+    emoji("⚡ An avid Competitive Coder and Cloud Enthusiast"),
     emoji("⚡ Public Speaker, Blog writer, and event organizer")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+softwareSkills: [
+  {
+    skillName: 'react-native',
+    fontAwesomeClassname: 'fab fa-react'
+  },
+  {
+    skillName: "MongoDB",
+    fontAwesomeClassname: "fab fa-envira"
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -59,10 +79,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -71,24 +87,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fab fa-envira"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: 'react-native',
-      fontAwesomeClassname: 'fab fa-react'
     },
     {
       skillName: 'Competitive Coding',
@@ -103,20 +107,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Frontend Development Web & App",  //Insert stack or technology you have experience in
       progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Database",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     }
   ]
 };
@@ -127,6 +131,13 @@ const techStack = {
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Full Stack Developer",  
+      company: "OurEye.ai",
+      companylogo: require("./assets/images/oureye-logo.png"),
+      date: "April 2021 – Sept 2021",
+      desc: "Developed scalable and highly interactive mobile applications using React Native and Web Applications using React JS. Additionally, Handling APIs and making cool features using JavaScript and JSX.",
+    },
     {
       role: "Wordpress Developer",  
       company: "Nexel World",
@@ -170,6 +181,10 @@ const bigProjects = {
     {
       image: require("./assets/images/socialfeathers.png"),
       link: "http://www.socialfeathers.com/"
+    },
+    {
+      image: require("./assets/images/oureye.png"),
+      link: "http://www.oureye.ai/"
     }
   ]
 };

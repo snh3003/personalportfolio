@@ -13,6 +13,7 @@
 }
 
 .starup-project-image > img {
+  padding: 50px;
   max-width: 100%;
   height: auto;
 }
