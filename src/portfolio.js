@@ -3,6 +3,12 @@
 // Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import vmware from "./assets/images/vmware.jpg";
+import oureye from "./assets/images/oureye-logo.png";
+import oureyeLogo from "./assets/images/oureye.png";
+import nexelworld from "./assets/images/nexelworld.jpg";
+import minerva from "./assets/images/minerva.png";
+import socialfeathers from "./assets/images/socialfeathers.png";
 
 const greeting = {
   /* Your Summary And Greeting Section */
@@ -113,35 +119,35 @@ const workExperiences = {
     {
       role: "Member of Technical Staff",
       company: "VMware",
-      companylogo: require("./assets/images/vmware.jpg"),
+      companylogo: vmware,
       date: "Jan 2022 - Present",
       desc: "Working on the UI of scalable and highly interactive VMware NSX Advanced Load Balancer (Avi Vantage) application built using Angular and Typescript.",
     },
     {
       role: "Full Stack Developer",
       company: "OurEye.ai",
-      companylogo: require("./assets/images/oureye-logo.png"),
+      companylogo: oureye,
       date: "April 2021 – Sept 2021",
       desc: "Developed scalable and highly interactive web and mobile applications. Implemented cross-browser compatibility and enhancements that improved responsiveness and optimization.",
     },
     {
       role: "Wordpress Developer",
       company: "Nexel World",
-      companylogo: require("./assets/images/nexelworld.jpg"),
+      companylogo: nexelworld,
       date: "May 2019 – July 2019",
       desc: "Developed websites for clients based on their requirements on CMS Wordpress.",
     },
     {
       role: "Teaching Assistant",
       company: "Minerva",
-      companylogo: require("./assets/images/minerva.png"),
+      companylogo: minerva,
       date: "December 2019 – May 2020",
       desc: "Worked as an undergrad teaching assistant for the critical thinking course.",
     },
     {
       role: "Android Developer",
       company: "Social Feathers",
-      companylogo: require("./assets/images/socialfeathers.png"),
+      companylogo: socialfeathers,
       date: "May 2020 - August 2020",
       desc: "Worked as an Android Java Developer.",
     },
@@ -164,11 +170,11 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/socialfeathers.png"),
+      image: socialfeathers,
       link: "http://www.socialfeathers.com/",
     },
     {
-      image: require("./assets/images/oureye.png"),
+      image: oureyeLogo,
       link: "http://www.oureye.ai/",
     },
   ],
@@ -253,7 +259,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "#",
+  number: "7318247963",
   email_address: "shahsama542@gmail.com",
 };
 
