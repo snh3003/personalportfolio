@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "snh3003",
-  title: "Hi all, I'm Shahab Hashmi",
+  title: "Hi, I'm Shahab Hashmi",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Reactjs / Angular / Nodejs / React Native, also a Cloud Enthusiast."
+    "A passionate Software Developer having an experience of building Web and Mobile applications with React / Angular / Node / React Native."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1UtoisqHdVArgHL8qP5MfP0Q-_nbLkdFk/view?usp=sharing",
@@ -33,13 +33,13 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What i do",
   subTitle:
-    "CRAZY FULL STACK DEVELOPER WHO ENJOYS BUILDING COOL REVENUE GENERATING PROJECTS",
+    "CRAZY FULL STACK DEVELOPER WHO ENJOYS BUILDING COOL REVENUE GENERATING PROJECTS.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web & mobile applications."
     ),
-    emoji("⚡ An avid Competitive Coder and Cloud Enthusiast"),
-    emoji("⚡ Public Speaker, Blog writer, and event organizer"),
+    emoji("⚡ An avid Competitive Coder, & Tech Enthusiast."),
+    emoji("⚡ Public Speaker, Blog writer, & Avid Coder."),
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -51,7 +51,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-angular",
     },
     {
-      skillName: "react-native",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react",
     },
     {
@@ -63,32 +63,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react",
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5",
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt",
-    },
-    {
-      skillName: "bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap",
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "nodejs",
+      skillName: "Node",
       fontAwesomeClassname: "fab fa-node",
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm",
     },
     {
       skillName: "python",
