@@ -9,6 +9,7 @@ import oureyeLogo from "./assets/images/oureye.png";
 import nexelworld from "./assets/images/nexelworld.jpg";
 import minerva from "./assets/images/minerva.png";
 import socialfeathers from "./assets/images/socialfeathers.png";
+import quantumHack from "./assets/images/quantumhack.jpg";
 
 const greeting = {
   /* Your Summary And Greeting Section */
@@ -191,7 +192,7 @@ const achievementSection = {
     {
       title: "First Prize Winner at Quantum Hack international Hackathon 2020",
       subtitle: " Open Theme Category",
-      image: require("./assets/images/quantumhack.jpg"),
+      image: quantumHack,
       footerLink: [
         {
           name: "Certification",
