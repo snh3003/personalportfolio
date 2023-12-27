@@ -9,7 +9,6 @@ import oureyeLogo from "./assets/images/oureye.png";
 import nexelworld from "./assets/images/nexelworld.jpg";
 import minerva from "./assets/images/minerva.png";
 import socialfeathers from "./assets/images/socialfeathers.png";
-import quantumHack from "./assets/images/quantumhack.jpg";
 import ethIndia from "./assets/images/ETH.png";
 import scholarCap from "./assets/images/scholar-cap.png";
 import hackathon from "./assets/images/hackathon.svg";

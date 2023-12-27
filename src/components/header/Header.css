@@ -27,6 +27,7 @@
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #7e8ce0;
+  border-radius: 25px;
 }
 
 .header .logo {
