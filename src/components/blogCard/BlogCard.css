@@ -1,15 +1,17 @@
 .blog-container {
   border-radius: 10px;
-  color: #586069;
-  background-color: #fff;
-  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
-  /* padding: 2rem; */
+  color: whitesmoke;
+  box-shadow: 0px 20px 50px #7e8ce0;
   cursor: pointer;
   height: 200px;
 }
 
+.blog-container:hover {
+  box-shadow: 0px 20px 50px #d9dbdf;
+}
+
 .blog-title {
-  color: #262626;
+  color: whitesmoke;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
@@ -46,7 +48,7 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: #00B0FF;
+  background-color: #7e8ce0;
   border-radius: 0 4px 0 32px;
 }
 
@@ -74,7 +76,7 @@
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #00B0FF;
+  background: #7e8ce0;
   height: 32px;
   width: 32px;
   border-radius: 32px;

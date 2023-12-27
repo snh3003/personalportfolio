@@ -10,16 +10,19 @@ import nexelworld from "./assets/images/nexelworld.jpg";
 import minerva from "./assets/images/minerva.png";
 import socialfeathers from "./assets/images/socialfeathers.png";
 import quantumHack from "./assets/images/quantumhack.jpg";
+import ethIndia from "./assets/images/ETH.png";
+import scholarCap from "./assets/images/scholar-cap.png";
+import hackathon from "./assets/images/hackathon.svg";
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "snh3003",
   title: "Hi, I'm Shahab Hashmi",
   subTitle: emoji(
-    "A passionate Software Developer having an experience of building Web and Mobile applications with React / Angular / Node / React Native."
+    "A passionate Software Developer having an experience of building Web & Mobile applications with NextJS / Angular / Node / React Native."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1UtoisqHdVArgHL8qP5MfP0Q-_nbLkdFk/view?usp=sharing",
+    "https://drive.google.com/file/d/1jOL0QLN9LAW6C4VtDKrMG2aFGAGJWQx7/view?usp=sharing",
 };
 
 // Your Social Media Link
@@ -118,18 +121,18 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Member of Technical Staff",
+      role: "R&D Software Engineer - 1",
       company: "VMware",
       companylogo: vmware,
       date: "Jan 2022 - Present",
-      desc: "Working on the UI of scalable and highly interactive VMware NSX Advanced Load Balancer (Avi Vantage) application built using Angular and Typescript.",
+      desc: "Working on the UI of scalable & highly interactive VMware NSX Advanced Load Balancer (Avi Vantage) application built using Angular and Typescript.",
     },
     {
       role: "Full Stack Developer",
       company: "OurEye.ai",
       companylogo: oureye,
       date: "April 2021 – Sept 2021",
-      desc: "Developed scalable and highly interactive web and mobile applications. Implemented cross-browser compatibility and enhancements that improved responsiveness and optimization.",
+      desc: "Developed scalable & highly interactive web & mobile applications. Implemented cross-browser compatibility and enhancements that improved responsiveness and optimization.",
     },
     {
       role: "Wordpress Developer",
@@ -186,13 +189,30 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters & Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
+      title: "Winner ETHIndia 2022 Hackathon",
+      subtitle: "Won multiple sponsor bounties for our user-friendly platform that provides real-time market updates in Web3 space through iOS widgets.",
+      image: ethIndia,
+    }, {
+      title: "Patent & Publication",
+      subtitle: "Currently have 1 patent, 1 research papers in the domain of IoT in Health-care & Data. Additionally published a book Chapter in IoT Sector.",
+      image: scholarCap,
+      footerLink: [
+        {
+          name: 'IEEE Publication',
+          url: "https://ieeexplore.ieee.org/document/9574684",
+        }, {
+          name: 'Book Chapter',
+          url: 'https://www.degruyter.com/document/doi/10.1515/9783110750584-006/html',
+        }
+      ]
+    }, {
       title: "First Prize Winner at Quantum Hack international Hackathon 2020",
-      subtitle: " Open Theme Category",
-      image: quantumHack,
+      subtitle: "Open Theme Category",
+      image: hackathon,
       footerLink: [
         {
           name: "Certification",
@@ -265,10 +285,10 @@ const contactInfo = {
 };
 
 //Twitter Section
-
 const twitterDetails = {
   userName: "shershah3003", //Replace "twitter" with your twitter username without @
 };
+
 export {
   greeting,
   socialMediaLinks,

@@ -3,7 +3,7 @@ import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
 import { Fade } from "react-reveal";
-import contactMail from "../../assets/images/contactMail.webp";
+import contactMail from "../../assets/images/contactMail.svg";
 
 export default function Contact() {
     return (

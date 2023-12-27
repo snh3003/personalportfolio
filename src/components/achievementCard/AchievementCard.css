@@ -4,31 +4,37 @@
     height: auto;
     width: 250px;
 }
+
 .card-title {
-    
     font-size: 22px;
+    color: whitesmoke;
     line-height: 24px;
     font-weight: 700;
     margin: 15px 0 0 0;
 }
+
 .card-subtitle {
     color: #666666;
     font-size: 17px;
     line-height: 1.5rem;
 }
+
 .certificate-card {
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    color: #666666;
+    box-shadow: 0px 20px 50px #7e8ce0;
     padding: 1.5rem;
     border-radius: 10px;
     border: 1px solid rgba(211, 211, 211, 0.397);
 }
+
 .certificate-detail-div {
     text-align: center;
 }
+
 .certificate-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+    box-shadow: 0px 20px 50px #d9dbdf;
 }
+
 .certificate-image-div {
     position: relative;
     height: 250px;
@@ -47,7 +53,7 @@
     justify-content: center;
 }
 .certificate-card-footer span.certificate-tag {
-    background: #00B0FF;
+    background: #7e8ce0;
     color: #f5f2f4;
     vertical-align: middle;
     align-items: center;
