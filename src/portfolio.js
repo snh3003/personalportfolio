@@ -21,7 +21,7 @@ const greeting = {
     "A passionate Software Developer having an experience of building Web & Mobile applications with NextJS / Angular / Node / React Native."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1M6jYnoQiAfttT4zGXNmXPEQ3VpYRwd0h/view?usp=sharing",
+    "https://drive.google.com/file/d/1k3TswZfds9N6l2mcro32xhRULEr-BDrf/view?usp=sharing",
 };
 
 // Your Social Media Link
