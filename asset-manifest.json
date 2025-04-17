@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/personalportfolio/static/css/main.527268a7.chunk.css",
-    "main.js": "/personalportfolio/static/js/main.fa1c72f2.chunk.js",
-    "main.js.map": "/personalportfolio/static/js/main.fa1c72f2.chunk.js.map",
+    "main.css": "/personalportfolio/static/css/main.781a03d6.chunk.css",
+    "main.js": "/personalportfolio/static/js/main.6118fa6a.chunk.js",
+    "main.js.map": "/personalportfolio/static/js/main.6118fa6a.chunk.js.map",
     "runtime-main.js": "/personalportfolio/static/js/runtime-main.4fd2407b.js",
     "runtime-main.js.map": "/personalportfolio/static/js/runtime-main.4fd2407b.js.map",
     "static/js/2.4f29d406.chunk.js": "/personalportfolio/static/js/2.4f29d406.chunk.js",
@@ -16,7 +16,7 @@
     "index.html": "/personalportfolio/index.html",
     "static/css/3.e8ebe3a1.chunk.css.map": "/personalportfolio/static/css/3.e8ebe3a1.chunk.css.map",
     "static/css/4.cd2fcad0.chunk.css.map": "/personalportfolio/static/css/4.cd2fcad0.chunk.css.map",
-    "static/css/main.527268a7.chunk.css.map": "/personalportfolio/static/css/main.527268a7.chunk.css.map",
+    "static/css/main.781a03d6.chunk.css.map": "/personalportfolio/static/css/main.781a03d6.chunk.css.map",
     "static/js/2.4f29d406.chunk.js.LICENSE.txt": "/personalportfolio/static/js/2.4f29d406.chunk.js.LICENSE.txt",
     "static/media/index.css": "/personalportfolio/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/contactMail.5afba855.svg": "/personalportfolio/static/media/contactMail.5afba855.svg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.4fd2407b.js",
     "static/js/2.4f29d406.chunk.js",
-    "static/css/main.527268a7.chunk.css",
-    "static/js/main.fa1c72f2.chunk.js"
+    "static/css/main.781a03d6.chunk.css",
+    "static/js/main.6118fa6a.chunk.js"
   ]
 }
