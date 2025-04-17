@@ -21,7 +21,7 @@ const greeting = {
     "A passionate Software Developer having an experience of building Web & Mobile applications with NextJS / Angular / Node / React Native."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1S4XYnxqNybJwG0E5zNLHrFu9PHIfQmcY/view?usp=sharing",
+    "https://drive.google.com/file/d/1uFN2yZYQmkl47BrpPi66MD3w8bn_Osyp/view?usp=sharing",
 };
 
 // Your Social Media Link
@@ -84,6 +84,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python",
     },
     {
+      skillName: "Selenium",
+      fontAwesomeClassname: "fab fa-java",
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-github",
+    },
+    {
+      skillName: "Pytest",
+      fontAwesomeClassname: "fab fa-python",
+    },
+    {
+      skillName: "Jasmine",
+      fontAwesomeClassname: "fab fa-js-square",
+    },
+    {
       skillName: "Data Structures & Algorithms",
       fontAwesomeClassname: "fas fa-laptop-code",
     },
@@ -115,51 +131,56 @@ const techStack = {
 };
 
 // Your top 3 work experiences
-
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  viewExperiences: true, // Set it to true to show workExperiences Section
   experience: [
+    {
+    role: "R&D Software Engineer - 2",
+    company: "VMware",
+    companylogo: vmware,
+    date: "Nov 2024 - Present",
+    desc: "Working on the development of highly interactive UI components and automating tests for scalability and performance of the VMware NSX Advanced Load Balancer.",
+    },
     {
       role: "R&D Software Engineer - 1",
       company: "VMware",
       companylogo: vmware,
       date: "Jan 2022 - Present",
-      desc: "Working on the UI of scalable & highly interactive VMware NSX Advanced Load Balancer (Avi Vantage) application built using Angular and Typescript.",
+      desc: "Building scalable & interactive UI for VMware NSX Advanced Load Balancer (Avi Vantage) using Angular and Typescript.",
     },
     {
       role: "Full Stack Developer",
       company: "OurEye.ai",
       companylogo: oureye,
       date: "April 2021 – Sept 2021",
-      desc: "Developed scalable & highly interactive web & mobile applications. Implemented cross-browser compatibility and enhancements that improved responsiveness and optimization.",
+      desc: "Developed scalable web & mobile applications with cross-browser compatibility, enhancing user experiences and responsiveness.",
     },
     {
       role: "Wordpress Developer",
       company: "Nexel World",
       companylogo: nexelworld,
       date: "May 2019 – July 2019",
-      desc: "Developed websites for clients based on their requirements on CMS Wordpress.",
+      desc: "Developed responsive websites using WordPress, focusing on custom themes and plugins for clients.",
     },
     {
       role: "Teaching Assistant",
       company: "Minerva",
       companylogo: minerva,
       date: "December 2019 – May 2020",
-      desc: "Worked as an undergrad teaching assistant for the critical thinking course.",
+      desc: "Assisted students in understanding complex topics and fostering critical thinking skills in the subject of technology.",
     },
     {
       role: "Android Developer",
       company: "Social Feathers",
       companylogo: socialfeathers,
       date: "May 2020 - August 2020",
-      desc: "Worked as an Android Java Developer.",
+      desc: "Developed Android applications, ensuring they met high usability standards and performance expectations.",
     },
   ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "snh3003", // Change to your github username to view your profile in Contact Section.
